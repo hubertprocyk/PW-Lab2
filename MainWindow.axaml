@@ -7,8 +7,8 @@
         Title="PW Lab2"
         Width="640"
         Height="360">
-    <StackPanel Margin="20" Spacing="10">
-        <StackPanel Orientation="Horizontal" Spacing="10">
+    <StackPanel Margin="15" Spacing="10">
+        <StackPanel Orientation="Horizontal" Spacing="5">
             <Button Content="Komputer" Click="OpenKomputer" />
             <Button Content="Monitor" Click="OpenMonitor" />
         </StackPanel>

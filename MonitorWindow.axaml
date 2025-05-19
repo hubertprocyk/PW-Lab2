@@ -7,7 +7,7 @@
         Title="Wybierz monitory"
         Width="640"
         Height="360">
-    <StackPanel Margin="10" Spacing="8">
+    <StackPanel Margin="15" Spacing="10">
         <ListBox x:Name="MonitorList" SelectionMode="Multiple">
             <ListBoxItem Content="Dell 24 - 600 zł" />
             <ListBoxItem Content="LG 27 - 800 zł" />
@@ -15,7 +15,7 @@
         </ListBox>
         <TextBlock Text="Cena:" />
         <TextBox x:Name="MonitorPrice" IsReadOnly="True" />
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="5">
             <Button Content="OK" Width="80" Click="OkClicked" />
             <Button Content="Anuluj" Width="80" Click="CancelClicked" />
         </StackPanel>
